@@ -56,13 +56,27 @@ For production environments, we recommend a proper self-hosted setup:
    - Set up process manager (PM2 recommended)
    - For detailed instructions, see [N8N's deployment docs](https://docs.n8n.io/hosting/)
 
+## Getting Your N8N API Key
+
+To connect AgentRails with your n8n instance, you'll need an API key:
+
+1. Log into your n8n instance
+2. Click on your user icon in the bottom left corner
+3. Select "Settings" from the dropdown menu
+4. Navigate to the "n8n API" section in the left sidebar
+5. Click "Create API Key"
+6. Copy the generated API key immediately - you won't be able to see it again!
+
+Note: For n8n Cloud users, you can find this under "Account Settings" → "API Keys"
+
 ## Connecting to AgentRails
 
 1. In your AgentRails dashboard, go to Settings
 2. Enter your N8N instance URL:
    - For self-hosted: Your domain or IP (e.g., `https://n8n.yourdomain.com`)
    - For N8N Cloud: Your workspace URL
-3. Save your settings
+3. Paste your N8N API key
+4. Save your settings
 
 ## Verifying the Connection
 
