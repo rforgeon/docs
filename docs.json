@@ -17,9 +17,14 @@
             "group": "Get Started",
             "pages": [
               "introduction",
-              "integrations",
-              "integrations/n8n-setup",
-              "integrations/anthropic-setup"
+              {
+                "group": "Setup",
+                "pages": [
+                  "n8n-setup",
+                  "anthropic-setup"
+                ]
+              },
+              "integrations"
             ]
           }
         ]
