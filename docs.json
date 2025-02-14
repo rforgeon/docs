@@ -3,8 +3,8 @@
   "theme": "mint",
   "name": "AgentRails",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
+    "primary": "#FFFFFF",
+    "light": "#F5F5F4",
     "dark": "#15803D"
   },
   "favicon": "/favicon.png",
@@ -26,8 +26,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "favicon.png",
+    "dark": "favicon.png"
   },
   "navbar": {
     "links": [

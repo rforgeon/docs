@@ -2,16 +2,6 @@
 
 Welcome to the official documentation for AgentRails - a modern dashboard for managing and monitoring your AI agents.
 
-Visit our [documentation site](https://docs.agentrails.com) to get started.
-
-### Local Development
-
-To run this documentation locally, install the [Mintlify CLI](https://www.npmjs.com/package/mintlify):
-
-```bash
-npm i -g mintlify
-mintlify dev
-```
 
 ### Prerequisites
 
